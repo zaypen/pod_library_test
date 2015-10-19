@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "pod_library_test"
-  s.version          = "0.1.2"
-  s.summary          = "A short description of pod_library_test."
+  s.version          = "0.1.3"
+  s.summary          = "A project for Cocoapods repo testing."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
                        This is description.
+                       A project for Cocoapods repo testing.
+                       * this is Markdown format.
                        DESC
 
   s.homepage         = "https://github.com/zaypen/pod_library_test"

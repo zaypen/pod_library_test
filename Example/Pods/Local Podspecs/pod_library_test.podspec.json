@@ -1,0 +1,25 @@
+{
+  "name": "pod_library_test",
+  "version": "0.1.0",
+  "summary": "A short description of pod_library_test.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/pod_library_test",
+  "license": "MIT",
+  "authors": {
+    "Kamil": "zaypen@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/pod_library_test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "pod_library_test": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "pod_library_test"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A short description of pod_library_test."
 
 # This description is used to generate tags and improve search results.
@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/pod_library_test"
+  s.homepage         = "https://github.com/zaypen/pod_library_test"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Kamil" => "zaypen@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/pod_library_test.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/zaypen/pod_library_test.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/kamil_hate_cat'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
